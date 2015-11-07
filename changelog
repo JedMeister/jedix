@@ -1,0 +1,34 @@
+turnkey-jedix-14.0.0 (1) turnkey; urgency=low
+
+  * Initial Jedix release; should possibly be Jedux but I like Jedix 
+    better. Makes me think of Asterix the Gaul! :)
+
+  * Base distribution: Debian Jessie 8.2
+
+  * Heavily based on BitKey:
+    https://github.com/bitkey/bitkey
+
+  * Minimal desktop environment:
+
+    - Standalone window manager (metacity).
+    - Customized desktop keybindings for window manipulation (convenience).
+    - Custom packaged metacity theme (zukitwo).
+    - Cursor theme (dmz-white).
+    - Lightweight application launcher (wbar).
+    - Terminal emulator with customized keybindings (mrxvt).
+    - Network manager with default configured interfaces (wicd).
+    - Includes popular wifi modules out of the box.
+    - File manager for accessing file system / media devices (thunar).
+    - USB storage device auto-mounting support (convenience).
+
+  * Boot to desktop:
+
+    - Supports 3 boot modes: cold-offline, cold-online, hot-online.
+    - Networking components are purged in cold-offline mode (security).
+    - Application launchers customized depending on boot mode (UX).
+    - Preseeded inithooks for uninterrupted boot process (convenience).
+    - Different wallpapers depending on boot mode as a visual queue (UX).
+    - Getting started prompt (UX).
+
+ -- Jeremy Davis <jeremy@turnkeylinux.org>  Sat, 07 Nov 2015 23:39:28 +1100
+
